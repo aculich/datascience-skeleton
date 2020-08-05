@@ -1,0 +1,20 @@
+name: datascience-skeleton
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pathlib
+  - pip
+  - requests
+  - scipy
+  - scikit-learn
+  - seaborn
+  - shapely
+  - statsmodels
+  - pip:
+    - nbgitpuller
+    - datascience
